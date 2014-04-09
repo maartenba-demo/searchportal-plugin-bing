@@ -1,0 +1,19 @@
+{
+    "name": "maartenballiauw/searchportal-plugin-bing",
+    "description": "Plugin for Bing search engine.",
+    "minimum-stability": "dev",
+    "license": "Apache-2",
+    "authors": [
+        {
+            "name": "Maarten Balliauw",
+            "email": "maarten.balliauw@jetbrains.com"
+        }
+    ],
+    "type": "searchportal-plugin",
+    "extra": {
+        "class": "SearchPortal\\Plugins\\BingSearchEnginePlugin"
+    },
+    "require": {
+        "maartenballiauw/searchportal-plugin-installers": "dev-master"
+    }
+}
